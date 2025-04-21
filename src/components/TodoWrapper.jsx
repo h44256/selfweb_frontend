@@ -1,5 +1,12 @@
-function TodoWrapper(){
-    return <div className="wrapper">TodoWrapper</div>
+import CreateForm from "./CreateForm";
+
+function TodoWrapper() {
+  return (
+    <div className="wrapper">
+      <h1>代辦事項</h1>
+      <CreateForm />
+    </div>
+  );
 }
 
-export default TodoWrapper
+export default TodoWrapper;

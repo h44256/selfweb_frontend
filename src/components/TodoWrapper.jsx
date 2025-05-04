@@ -7,18 +7,18 @@ const getInitialTodos = () => {
   return storedTodos
     ? JSON.parse(storedTodos)
     : [
-        {
-          content: "打掃廁所",
-          id: Math.random(),
-          isCompleted: false,
-          isEditing: false,
-        },
-        {
-          content: "寫作業",
-          id: Math.random(),
-          isCompleted: false,
-          isEditing: false,
-        },
+        // {
+        //   content: "",
+        //   id: Math.random(),
+        //   isCompleted: false,
+        //   isEditing: false,
+        // },
+        // {
+        //   content: "寫作業",
+        //   id: Math.random(),
+        //   isCompleted: false,
+        //   isEditing: false,
+        // },
       ];
 };
 

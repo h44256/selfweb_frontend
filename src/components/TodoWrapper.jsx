@@ -1,3 +1,4 @@
+import styles from "./TodoList.module.css";
 import CreateForm from "./CreateForm";
 import Todo from "./Todo";
 import { useState, useEffect } from "react";
@@ -88,7 +89,7 @@ function TodoWrapper() {
   };
 
   return (
-    <div className="wrapper">
+    <div className={styles.wrapper}>
       <h1>代辦事項</h1>
       <CreateForm addTodo={addTodo} />
       {todos.map((todo) => {

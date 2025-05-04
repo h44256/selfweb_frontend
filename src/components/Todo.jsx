@@ -1,15 +1,22 @@
 import { MdDelete, MdEdit } from "react-icons/md";
-import "./Todo.css";
+import styles from "./TodoList.module.css";
 import EditForm from "./EditForm";
 
-function Todo({ todo, deleteTodo, toggleCompleted, toggleIsEditing, editTodo }) {
-
+function Todo({
+  todo,
+  deleteTodo,
+  toggleCompleted,
+  toggleIsEditing,
+  editTodo,
+}) {
   return (
     // <div className="todo completed">
     todo.isEditing ? (
-      <EditForm todo={todo} editTodo={editTodo}/>
+      <EditForm todo={todo} editTodo={editTodo} />
     ) : (
-      <div className={`todo ${todo.isCompleted ? "completed" : ""}`}>
+      <div
+        className={`${styles.todo} ${todo.isCompleted ? styles.completed : ""}`}
+      >
         <p
           onClick={() => {
             toggleCompleted(todo.id);
@@ -28,7 +35,8 @@ function Todo({ todo, deleteTodo, toggleCompleted, toggleIsEditing, editTodo }) 
             onClick={() => {
               deleteTodo(todo.id);
             }}
-            className="delete-icon"
+            // className="delete-icon"
+            className={styles["delete-icon"]}
           />
         </div>
       </div>

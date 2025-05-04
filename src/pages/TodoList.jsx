@@ -1,8 +1,12 @@
 import TodoWrapper from "../components/TodoWrapper";
-import "./TodoList.css";
+import styles from "../components/TodoList.module.css";
 
 function TodoList() {
-  return <TodoWrapper />;
+  return (
+    <div className={styles.todoPage}>
+      <TodoWrapper />;
+    </div>
+  );
 }
 
 export default TodoList;

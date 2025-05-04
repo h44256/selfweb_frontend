@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin:0;
     box-sizing: border-box;
@@ -12,7 +12,26 @@ body{
     justify-content: center;
     font-family: sans-serif;
 
-}
+} */
+
+.todoPage {
+    background-color: #3b36cc;
+    color: white;
+    font-family: sans-serif;
+  
+    /* 確保鋪滿整個畫面 */
+    min-height: 100vh;
+    width: 100vw;
+  
+    /* 排版 */
+    display: flex;
+    justify-content: center;
+  
+    /* 移除預設內外距，避免邊緣空白 */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
 .wrapper{
     width: 450px;
@@ -61,4 +80,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.delete-icon{
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.completed{
+    opacity: 0.4;
+    text-decoration: line-through 3px black;
 }

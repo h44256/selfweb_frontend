@@ -1,9 +1,0 @@
-.delete-icon{
-    cursor: pointer;
-    margin-left: 5px;
-}
-
-.completed{
-    opacity: 0.4;
-    text-decoration: line-through 3px black;
-}

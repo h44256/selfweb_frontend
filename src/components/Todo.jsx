@@ -1,5 +1,5 @@
 import { MdDelete, MdEdit } from "react-icons/md";
-import styles from "./TodoList.module.css";
+import styles from "../css/TodoList.module.css";
 import EditForm from "./EditForm";
 
 function Todo({

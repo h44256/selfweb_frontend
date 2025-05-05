@@ -1,5 +1,5 @@
 import TodoWrapper from "../components/TodoWrapper";
-import styles from "../components/TodoList.module.css";
+import styles from "../css/TodoList.module.css";
 
 function TodoList() {
   return (

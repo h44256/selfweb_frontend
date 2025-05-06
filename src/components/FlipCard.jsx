@@ -1,0 +1,23 @@
+import { useState } from "react";
+import styles from "../css/flipcard.module.css";
+
+function FlipCard({ front, back }) {
+  const [flipped, setFlipped] = useState(false);
+
+  return (
+    <div
+      className={`${styles.flipCard} ${flipped ? styles.flipped : ""}`}
+      onClick={() => setFlipped(!flipped)}
+    >
+      <div className={styles.flipCardInner}>
+        <div className={styles.flipCardFront}>
+          {front}
+          <div className={styles.tip}>點擊卡片看更多</div>
+        </div>
+        <div className={styles.flipCardBack}>{back}</div>
+      </div>
+    </div>
+  );
+}
+
+export default FlipCard;

@@ -1,0 +1,77 @@
+.company{
+    width : 1000px;
+    height: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    border : 2px solid red;
+}
+
+.cardGroup {
+    display: flex;
+    flex-direction: column; /* 垂直排列 */
+    gap: 20px;               /* 上下間距 */
+  }
+  
+.card{
+    width:250px;
+    height:360px;
+    box-shadow: 0 0 2px 2px gray;
+    border-radius: 5px;
+
+
+}
+.imageWrapper {
+    height: 20%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+.Riease{
+    width:100%;
+    height: 100%;   
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+  }
+
+.surpreme{
+    width:100%;
+    height: 100%;   
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+
+  }
+
+.chunyuan{
+    width:100%;
+    height: 100%;   
+    border-radius: 5px 5px 0 0;
+    object-fit: scale-down;
+}
+
+.cardContent {
+    height: 20px;
+    background-color: white;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+
+.companyContent{
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+
+  .divider {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+    width: 90%;
+  }
+  

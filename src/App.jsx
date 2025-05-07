@@ -23,6 +23,7 @@ import Radar from "./pages/Radar";
 import ActionLog from "./pages/ActionLog";
 import LoginAlert from "./pages/LoginAlert";
 import MyDataRevamp from "./pages/MyDataRevamp";
+import ChunYuanProject from "./pages/ChunYuanProject";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/ActionLog" element={<ActionLog />} />
         <Route path="/LoginAlert" element={<LoginAlert />} />
         <Route path="/MyDataRevamp" element={<MyDataRevamp />} />
+        <Route path="/ChunYuanProject" element={<ChunYuanProject />} />
       </Routes>
     </BrowserRouter>
   );

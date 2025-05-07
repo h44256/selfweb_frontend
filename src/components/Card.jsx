@@ -5,6 +5,7 @@ import Riease from "./Riease";
 import RieaseSide from "./RieaseSide";
 import Chunyuan from "./Chunyuan";
 import FlipCard from "./FlipCard";
+import ChunYuanSide from "./ChunYuanSide";
 
 function Card() {
   return (
@@ -12,7 +13,7 @@ function Card() {
       <div className={styles.company}>
         <FlipCard front={<Surpreme />} back={<SupremeSide />} />
         <FlipCard front={<Riease />} back={<RieaseSide />} />
-        <Chunyuan />
+        <FlipCard front={<Chunyuan />} back={<ChunYuanSide />} />
       </div>
     </>
     // <>

@@ -28,11 +28,6 @@ function ChunYuanSide() {
             </a>
           </li>
         </ul>
-
-        <div className={styles.sideNote}>
-          利用 Python 與 OpenCV
-          技術進行施工現場土石方照片分析，自動辨識範圍與面積，輔助工程單位進行土石方數量預估與紀錄。
-        </div>
       </div>
     </div>
   );

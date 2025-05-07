@@ -15,6 +15,10 @@ function ChunYuanProject() {
           本程式透過拍攝土石堆照片，結合 OpenCV
           辨識色塊與邊界，自動計算土石方面積與初步體積預估，協助現場工程紀錄與分析。
         </p>
+        <div className={styles.sideNote}>
+          利用 Python 與 OpenCV
+          技術進行施工現場土石方照片分析，自動辨識範圍與面積，輔助工程單位進行土石方數量預估與紀錄。
+        </div>
         <ul className={styles.features}>
           <li>🖼 利用影像 HSV 轉換與輪廓偵測</li>
           <li>📐 自動標示邊界與面積文字</li>

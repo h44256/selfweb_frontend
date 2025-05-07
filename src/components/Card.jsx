@@ -1,8 +1,9 @@
 import styles from "../css/card.module.css";
 import Surpreme from "./Surpreme";
-import Riease from "./Riease";
-import Chunyuan from "./Chunyuan";
 import SupremeSide from "./SupremeSide";
+import Riease from "./Riease";
+import RieaseSide from "./RieaseSide";
+import Chunyuan from "./Chunyuan";
 import FlipCard from "./FlipCard";
 
 function Card() {
@@ -10,7 +11,7 @@ function Card() {
     <>
       <div className={styles.company}>
         <FlipCard front={<Surpreme />} back={<SupremeSide />} />
-        <Riease />
+        <FlipCard front={<Riease />} back={<RieaseSide />} />
         <Chunyuan />
       </div>
     </>

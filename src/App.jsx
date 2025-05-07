@@ -13,6 +13,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import TodoList from "./pages/TodoList";
+import BootLoader from "./pages/BootLoader";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/todo-list" element={<TodoList />} />
+        <Route path="/BootLoader" element={<BootLoader />} />
       </Routes>
     </BrowserRouter>
   );

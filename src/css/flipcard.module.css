@@ -1,6 +1,6 @@
 .flipCard {
     width: 250px;
-    height: 360px;
+    height: 500px;
     perspective: 1000px;
     cursor: pointer;
   }

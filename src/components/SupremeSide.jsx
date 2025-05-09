@@ -30,12 +30,12 @@ function SupremeSide() {
           </li>
           <li>
             <a
-              href="/BootLoader2"
+              href="/CloudToFirmwareControl"
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
             >
-              BootLoader 2.0
+              CloudToFirmwareControl
             </a>
           </li>
         </ul>

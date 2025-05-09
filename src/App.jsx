@@ -18,7 +18,7 @@ import MotorTest from "./pages/MotorTest";
 import MotorGui from "./pages/MotorGui";
 import StockSpider from "./pages/StockSpider";
 import PersonalSite from "./pages/PersonalSite";
-import BootLoader2 from "./pages/BootLoader2";
+import CloudToFirmwareControl from "./pages/CloudToFirmwareControl";
 import Radar from "./pages/Radar";
 import ActionLog from "./pages/ActionLog";
 import LoginAlert from "./pages/LoginAlert";
@@ -36,7 +36,10 @@ function App() {
         <Route path="/MotorGui" element={<MotorGui />} />
         <Route path="/StockSpider" element={<StockSpider />} />
         <Route path="/PersonalSite" element={<PersonalSite />} />
-        <Route path="/BootLoader2" element={<BootLoader2 />} />
+        <Route
+          path="/CloudToFirmwareControl"
+          element={<CloudToFirmwareControl />}
+        />
         <Route path="/Radar" element={<Radar />} />
         <Route path="/ActionLog" element={<ActionLog />} />
         <Route path="/LoginAlert" element={<LoginAlert />} />

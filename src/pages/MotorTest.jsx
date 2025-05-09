@@ -7,14 +7,45 @@ function MotorTest() {
       <div className={styles.card}>
         <h1 className={styles.title}>馬達控制器品質自動化測試</h1>
         <img className={styles.image} src="/placeholder.png" alt="Motor Test" />
+
         <p className={styles.description}>
-          本專案設計一套完整的自動測試架構，提供高效率測試流程與錯誤記錄機制。
+          本專案旨在開發一套自動化品質檢測系統，用以驗證馬達控制器(MCU)出廠前是否符合品質標準。
         </p>
-        <ul className={styles.features}>
-          <li>🧪 測試步驟自動化、腳本化</li>
-          <li>📊 結果記錄與自動生成測試報告</li>
-          <li>🔌 UART / CANBus 控制與通訊整合</li>
-        </ul>
+        <p className={styles.description}>
+          系統依照 <strong>品保單位（QA）設計的檢測流程</strong>，整合{" "}
+          <strong>動力計平台（Dynamometer）</strong>與{" "}
+          <strong>馬達控制器</strong>，並透過自訂的{" "}
+          <strong>CAN BUS 通訊協議</strong>
+          完成控制指令下發與數據回傳。
+        </p>
+
+        <p className={styles.description}>
+          為了方便使用者簡易操作，軟體介面設計為 <strong>一鍵式測試按鈕</strong>
+          ，
+          可自動化執行整體測試流程，包含初始化、運轉控制、資料擷取與結果判定。
+        </p>
+
+        <h2 className={styles.subtitle}>📋 測試項目涵蓋</h2>
+        <ol className={styles.orderedList}>
+          {" "}
+          <li>
+            馬達 <strong>轉速</strong>
+          </li>
+          <li>
+            輸出 <strong>扭力</strong>
+          </li>
+          <li>
+            運轉期間 <strong>溫度</strong>
+          </li>
+          <li>
+            系統運作時之 <strong>電壓</strong> 與 <strong>電流</strong>
+          </li>
+        </ol>
+
+        <p className={styles.description}>
+          本系統可有效降低操作複雜度與人為誤差，並提升產線測試效率與品質控管精度。
+        </p>
+
         <a
           href="https://github.com/placeholder"
           target="_blank"
@@ -30,4 +61,5 @@ function MotorTest() {
     </div>
   );
 }
+
 export default MotorTest;

@@ -33,13 +33,14 @@
   .flipCardFront {
     background-color: white;
     z-index: 2;
+    will-change: transform, font-weight;
   }
   
   .flipCardBack {
     background-color: white;
     transform: rotateY(180deg);
   }
-  
+
   .tip {
     position: absolute;
     bottom: 5px;

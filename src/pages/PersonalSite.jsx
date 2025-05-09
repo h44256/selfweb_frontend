@@ -59,7 +59,7 @@ function PersonalSite() {
             rel="noopener noreferrer"
             className={styles.buttonGithub}
           >
-            🔵 查看前端 GitHub 原始碼🔗
+            🔵 查看前端 GitHub 原始碼🔗--還要去改Git連結, 現在還沒上public
           </a>
           <a
             href="https://github.com/placeholder-backend"
@@ -67,7 +67,7 @@ function PersonalSite() {
             rel="noopener noreferrer"
             className={styles.buttonGithub}
           >
-            🟣 查看後端 GitHub 原始碼🔗
+            🟣 查看後端 GitHub 原始碼🔗--還要去改Git連結, 現在還沒上public
           </a>
         </div>
 

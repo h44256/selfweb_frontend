@@ -49,14 +49,24 @@ function MotorGui() {
           <li>通訊協議：CAN BUS</li>
         </ul>
 
-        <a
-          href="https://github.com/h44256/MotorGUI_sideProject"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.buttonGithub}
-        >
-          🟣 查看 GitHub 原始碼🔗
-        </a>
+        <div className={styles.buttonGroup}>
+          <a
+            href="https://github.com/h44256/MotorGUI_sideProject"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.buttonGithub}
+          >
+            🟣 查看 GitHub 原始碼🔗
+          </a>
+          <a
+            href="https://mega.nz/folder/tLNSFaaD#bLZTZL1T-Z3rsyj2APIc_Q/folder/keExDLQQ"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.buttonMega}
+          >
+            MotorGUI 資訊
+          </a>
+        </div>
         <Link to="/" className={styles.backLink}>
           ← 回首頁
         </Link>

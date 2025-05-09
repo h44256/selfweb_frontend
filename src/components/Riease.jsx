@@ -9,6 +9,9 @@ function Riease() {
       <p className={styles.companyContent}>使用語言 : Java, JavaScript</p>
       <p className={styles.companyContent}>使用框架 : Spring Boot</p>
       <p className={styles.companyContent}>資料庫 : PostgreSQL</p>
+      <hr className={styles.divider} />
+      <div className={styles.cardContent}>Side Project 自學技能</div>
+      <p className={styles.companyContent}>Arduino : 自製簡易倒車雷達</p>
     </div>
   );
 }

@@ -9,7 +9,7 @@ function RieaseSide() {
       <div className={styles.projectLinks}>
         {/* 🧰 工作經歷區塊 */}
         <p className={`${styles.sectionTitle} ${styles.sectionWork}`}>
-          🧰 工作經歷
+          💼 工作經歷
         </p>
 
         <p className={styles.groupTitle}>🗃 後台系統開發</p>

@@ -13,7 +13,7 @@ function SupremeSide() {
       <div className={styles.projectLinks}>
         {/* 🎯 工作經歷區塊 */}
         <p className={`${styles.sectionTitle} ${styles.sectionWork}`}>
-          🧰 工作經歷
+          💼 工作經歷
         </p>
 
         <p className={styles.groupTitle}>📦 韌體</p>
@@ -35,7 +35,7 @@ function SupremeSide() {
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
             >
-              CloudToFirmwareControl
+              CloudToFirmwareControl--還要改Mega資訊
             </a>
           </li>
         </ul>
@@ -92,7 +92,7 @@ function SupremeSide() {
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
             >
-              個人網站
+              個人網站--還要改Git
             </a>
           </li>
         </ul>

@@ -42,13 +42,20 @@ function MotorGui() {
           但透過資料模擬與完整流程設計，成功展示軟體在馬達控制與安全防護方面可實現的功能與彈性。
         </p>
 
+        <h2 className={styles.subtitle}>💻 使用語言與開發環境</h2>
+        <ul className={styles.features}>
+          <li>使用語言：C#</li>
+          <li>框架：.NET WinForms</li>
+          <li>通訊協議：CAN BUS</li>
+        </ul>
+
         <a
-          href="https://github.com/placeholder"
+          href="https://github.com/h44256/MotorGUI_sideProject"
           target="_blank"
           rel="noopener noreferrer"
-          className={styles.button}
+          className={styles.buttonGithub}
         >
-          查看 GitHub 原始碼
+          🟣 查看 GitHub 原始碼🔗
         </a>
         <Link to="/" className={styles.backLink}>
           ← 回首頁

@@ -17,7 +17,7 @@ function BootLoader() {
           <strong>
             CAN BUS 的 In-Application Programming (IAP) 韌體更新機制
           </strong>
-          ， 用以對電動機車三電系統（VCU、MCU、BMS）進行韌體燒錄與更新。
+          ，用以對電動機車三電系統（VCU、MCU、BMS）進行韌體燒錄與更新。
         </p>
 
         <p className={styles.description}>
@@ -68,13 +68,20 @@ function BootLoader() {
           本機制有效提升系統維護效率、穩定性與工程端便利性，是電動車三電韌體更新流程的重要升級。
         </p>
 
+        <h2 className={styles.subtitle}>💻 使用語言與開發環境</h2>
+        <ul className={styles.features}>
+          <li>使用語言：C#</li>
+          <li>框架：.NET WinForms</li>
+          <li>通訊協議：CAN BUS</li>
+        </ul>
+
         <a
-          href="https://github.com/yourname/bootloader"
+          href="https://mega.nz/folder/tLNSFaaD#bLZTZL1T-Z3rsyj2APIc_Q/folder/4DkmxbSQ"
           target="_blank"
           rel="noopener noreferrer"
-          className={styles.button}
+          className={styles.buttonMega}
         >
-          查看 GitHub 原始碼
+          查看BootLoader資訊
         </a>
         <Link to="/" className={styles.backLink}>
           ← 回首頁

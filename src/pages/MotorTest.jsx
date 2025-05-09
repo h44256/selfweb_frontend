@@ -46,13 +46,20 @@ function MotorTest() {
           本系統可有效降低操作複雜度與人為誤差，並提升產線測試效率與品質控管精度。
         </p>
 
+        <h2 className={styles.subtitle}>💻 使用語言與開發環境</h2>
+        <ul className={styles.features}>
+          <li>使用語言：C++</li>
+          <li>框架：QT</li>
+          <li>通訊協議：CAN BUS</li>
+        </ul>
+
         <a
-          href="https://github.com/placeholder"
+          href="https://mega.nz/folder/tLNSFaaD#bLZTZL1T-Z3rsyj2APIc_Q/folder/BbkGmDhY"
           target="_blank"
           rel="noopener noreferrer"
-          className={styles.button}
+          className={styles.buttonMega}
         >
-          查看 GitHub 原始碼
+          查看MotorTest資訊
         </a>
         <Link to="/" className={styles.backLink}>
           ← 回首頁

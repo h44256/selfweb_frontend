@@ -52,14 +52,25 @@ function PersonalSite() {
           <li>做為個人學習歷程與作品展示平台，未來也會持續擴充功能與內容。</li>
         </ol>
 
-        <a
-          href="https://github.com/placeholder"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.button}
-        >
-          查看 GitHub 原始碼
-        </a>
+        <div className={styles.buttonGroup}>
+          <a
+            href="https://github.com/placeholder-frontend"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.buttonGithub}
+          >
+            🔵 查看前端 GitHub 原始碼🔗
+          </a>
+          <a
+            href="https://github.com/placeholder-backend"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.buttonGithub}
+          >
+            🟣 查看後端 GitHub 原始碼🔗
+          </a>
+        </div>
+
         <Link to="/" className={styles.backLink}>
           ← 回首頁
         </Link>

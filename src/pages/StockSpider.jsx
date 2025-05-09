@@ -39,13 +39,18 @@ function StockSpider() {
           <li>或重新啟動機器學習應用開發</li>
         </ol>
 
+        <h2 className={styles.subtitle}>💻 使用語言與開發環境</h2>
+        <ul className={styles.features}>
+          <li>使用語言：python</li>
+        </ul>
+
         <a
-          href="https://github.com/placeholder"
+          href="https://github.com/h44256/CrawlerStock"
           target="_blank"
           rel="noopener noreferrer"
-          className={styles.button}
+          className={styles.buttonGithub}
         >
-          查看 GitHub 原始碼
+          🟣 查看 GitHub 原始碼🔗
         </a>
         <Link to="/" className={styles.backLink}>
           ← 回首頁

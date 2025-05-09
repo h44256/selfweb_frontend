@@ -10,7 +10,7 @@ import ChunYuanSide from "./ChunYuanSide";
 function Card() {
   return (
     <>
-      <div className={styles.company}>
+      <div className={styles.cardContainer}>
         <FlipCard front={<Surpreme />} back={<SupremeSide />} />
         <FlipCard front={<Riease />} back={<RieaseSide />} />
         <FlipCard front={<Chunyuan />} back={<ChunYuanSide />} />

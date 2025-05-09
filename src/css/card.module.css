@@ -11,44 +11,21 @@
     flex-direction: column; /* 垂直排列 */
     gap: 20px;               /* 上下間距 */
   }
+
+  .card {
+    background: linear-gradient(to bottom, #ffffff, #f4f4f4);
+    height: 100%;
+    padding: 0px;
+    transition: box-shadow 0.2s ease;
+  }
   
-.card{
-    width:250px;
-    height:500px;
-    box-shadow: 0 0 2px 2px gray;
-    border-radius: 5px;
 
-
-}
-.imageWrapper {
-    height: 20%;
-    width: 100%;
-    overflow: hidden;
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
   }
 
-.Riease{
-    width:100%;
-    height: 100%;   
-    border-radius: 5px 5px 0 0;
-    object-fit: cover;
-  }
-
-.surpreme{
-    width:100%;
-    height: 100%;   
-    border-radius: 5px 5px 0 0;
-    object-fit: cover;
-
-  }
-
-.chunyuan{
-    width:100%;
-    height: 100%;   
-    border-radius: 5px 5px 0 0;
-    object-fit: scale-down;
-}
-
-.cardContent {
+  .cardContent {
     height: 20px;
     background-color: white;
     display: flex;
@@ -61,6 +38,24 @@
     text-align: center;
   }
 
+  .imageWrapper {
+    background-color: white;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .surpreme,
+  .Riease,
+  .chunyuan {
+    max-height: 100%;  
+    max-width: 100%;   
+    object-fit: contain; 
+  }
+
+  
 .companyContent{
     font-size: 12px;
     font-weight:bold;

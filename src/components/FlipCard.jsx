@@ -12,9 +12,12 @@ function FlipCard({ front, back }) {
       <div className={styles.flipCardInner}>
         <div className={styles.flipCardFront}>
           {front}
-          <div className={styles.tip}>點擊卡片看更多</div>
+          <div className={styles.tip}>點擊卡片翻面</div>
         </div>
-        <div className={styles.flipCardBack}>{back}</div>
+        <div className={styles.flipCardBack}>
+          {back}
+          <div className={styles.tip}>點擊卡片翻面</div>
+        </div>
       </div>
     </div>
   );

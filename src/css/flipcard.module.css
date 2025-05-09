@@ -1,8 +1,9 @@
 .flipCard {
     width: 250px;
-    height: 500px;
+    height: 700px;
     perspective: 1000px;
     cursor: pointer;
+    overflow: hidden;
   }
   
   .flipCardInner {
@@ -23,8 +24,9 @@
     height: 100%;
     position: absolute;
     backface-visibility: hidden;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
     overflow: hidden;
   }
   

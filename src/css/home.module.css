@@ -6,21 +6,78 @@
   padding: 24px;
   box-sizing: border-box;
   font-family: "Segoe UI", sans-serif;
-}
-
-.title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 16px;
   text-align: center;
 }
 
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
 
-/* 按鈕區塊（可擴充） */
-button {
-  margin-bottom: 20px;
-  padding: 8px 16px;
-  font-size: 14px;
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  color: #222;
+}
+
+.intro {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #555;
+}
+
+.introSub {
+  display: inline-block;
+  margin-top: 16px; 
+}
+
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-top: 20px;
+  flex-wrap: wrap; 
+}
+
+.socialLinks a {
+  font-size: 1.5rem;
+  color: #3b36cc;
+  transition: color 0.3s;
+}
+
+.socialLinks a:hover {
+  color: #2a28a5;
+}
+
+.sectionTitle {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: #333;
+}
+
+.todoButtonWrapper {
+  margin-top: 32px;
+}
+
+.todoButton {
+  padding: 10px 20px;
+  font-size: 1rem;
   background-color: #3b36cc;
   color: white;
   border: none;
@@ -29,6 +86,47 @@ button {
   transition: background-color 0.3s;
 }
 
-button:hover {
+.todoButton:hover {
   background-color: #2a28a5;
 }
+
+@media (max-width: 768px) {
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .intro {
+    font-size: 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+}
+
+.contactItem {
+  position: relative;
+}
+
+.emailText {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 2px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+/* 滑鼠移入時顯示 email */
+.contactItem:hover .emailText {
+  opacity: 1;
+}
+

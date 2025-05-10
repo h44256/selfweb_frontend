@@ -1,8 +1,8 @@
 import { useState } from "react";
 import styles from "../css/flipcard.module.css";
 
-function FlipCard({ front, back }) {
-  const [flipped, setFlipped] = useState(false);
+function FlipCard({ front, back, defaultFlipped = false }) {
+  const [flipped, setFlipped] = useState(defaultFlipped);
 
   return (
     <div

@@ -12,7 +12,11 @@ function Card() {
     <>
       <div className={styles.cardContainer}>
         <FlipCard front={<Surpreme />} back={<SupremeSide />} />
-        <FlipCard front={<Riease />} back={<RieaseSide />} />
+        <FlipCard
+          front={<Riease />}
+          back={<RieaseSide />}
+          defaultFlipped={true}
+        />
         <FlipCard front={<Chunyuan />} back={<ChunYuanSide />} />
       </div>
     </>

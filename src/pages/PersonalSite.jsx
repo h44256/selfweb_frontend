@@ -54,20 +54,20 @@ function PersonalSite() {
 
         <div className={styles.buttonGroup}>
           <a
-            href="https://github.com/placeholder-frontend"
+            href="https://github.com/h44256/selfweb_frontend"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.buttonGithub}
           >
-            🔵 查看前端 GitHub 原始碼🔗--還要去改Git連結, 現在還沒上public
+            🔵 查看前端 GitHub 原始碼🔗
           </a>
           <a
-            href="https://github.com/placeholder-backend"
+            href="https://github.com/h44256/selfweb_backend"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.buttonGithub}
           >
-            🟣 查看後端 GitHub 原始碼🔗--還要去改Git連結, 現在還沒上public
+            🟣 查看後端 GitHub 原始碼🔗
           </a>
         </div>
 

@@ -13,8 +13,6 @@ function Riease() {
       <p className={styles.companyContent}>🧱 使用框架：Spring Boot</p>
       <p className={styles.companyContent}>🗄️ 資料庫：PostgreSQL</p>
 
-      <hr className={styles.divider} />
-
       <div className={styles.sectionTitle + " " + styles.sectionSide}>
         Side Project 自學技能
       </div>

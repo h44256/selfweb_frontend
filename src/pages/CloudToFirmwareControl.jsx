@@ -52,7 +52,7 @@ function CloudToFirmwareControl() {
         </ul>
 
         <a
-          href="https://mega.nz/folder/tLNSFaaD#bLZTZL1T-Z3rsyj2APIc_Q/folder/4DkmxbSQ"
+          href="https://mega.nz/folder/tLNSFaaD#bLZTZL1T-Z3rsyj2APIc_Q/folder/YSsQWKgL"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.buttonMega}

@@ -74,14 +74,6 @@
   padding-left: 0.625rem;
 }
 
-.divider {
-  border: none;
-  height: 1px;
-  background-color: #ccc;
-  margin: 0.625rem 0;
-  width: 90%;
-}
-
 .sectionTitle {
   font-size: 1.1rem;
   font-weight: bold;

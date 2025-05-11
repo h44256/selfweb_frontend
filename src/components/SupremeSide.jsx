@@ -35,7 +35,7 @@ function SupremeSide() {
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
             >
-              CloudToFirmwareControl--還要改Mega資訊
+              CloudToFirmwareControl
             </a>
           </li>
         </ul>
@@ -92,7 +92,7 @@ function SupremeSide() {
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
             >
-              個人網站--還要改Git
+              個人網站
             </a>
           </li>
         </ul>

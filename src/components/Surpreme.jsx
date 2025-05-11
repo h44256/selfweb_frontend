@@ -16,8 +16,6 @@ function Surpreme() {
       <p className={styles.companyContent}>🧱 使用框架：QT, .NET</p>
       <p className={styles.companyContent}>🔗 通訊協議：CAN Bus</p>
 
-      <hr className={styles.divider} />
-
       <div className={styles.sectionTitle + " " + styles.sectionSide}>
         Side Project 自學技能
       </div>

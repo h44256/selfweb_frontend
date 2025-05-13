@@ -57,7 +57,7 @@ function CloudToFirmwareControl() {
           rel="noopener noreferrer"
           className={styles.buttonMega}
         >
-          查看CloudToFirmwareControl資訊--這個還沒完成要補充,Mega資訊
+          查看CloudToFirmwareControl資訊
         </a>
 
         <Link to="/" className={styles.backLink}>

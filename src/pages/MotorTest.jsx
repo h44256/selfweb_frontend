@@ -6,7 +6,7 @@ function MotorTest() {
     <div className={styles.container}>
       <div className={styles.card}>
         <h1 className={styles.title}>馬達控制器品質自動化測試</h1>
-        <img className={styles.image} src="/placeholder.png" alt="Motor Test" />
+        <img className={styles.image} src="surpreme.png" alt="Motor Test" />
 
         <p className={styles.description}>
           本專案旨在開發一套自動化品質檢測系統，用以驗證馬達控制器(MCU)出廠前是否符合品質標準。

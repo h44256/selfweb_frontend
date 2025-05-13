@@ -6,7 +6,7 @@ function ActionLog() {
     <div className={styles.container}>
       <div className={styles.card}>
         <h1 className={styles.title}>操作紀錄新增/查詢功能專案</h1>
-        <img className={styles.image} src="/placeholder.png" alt="Action Log" />
+        <img className={styles.image} src="/Riease.jpg" alt="Action Log" />
 
         <p className={styles.description}>
           本專案目標為於資料後台系統中{" "}

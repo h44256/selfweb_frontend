@@ -6,11 +6,7 @@ function LoginAlert() {
     <div className={styles.container}>
       <div className={styles.card}>
         <h1 className={styles.title}>會員登入異常警示機制專案</h1>
-        <img
-          className={styles.image}
-          src="/placeholder.png"
-          alt="Login Alert"
-        />
+        <img className={styles.image} src="/Riease.jpg" alt="Login Alert" />
 
         <p className={styles.description}>
           本專案目標為於資料後台系統中建置一套{" "}

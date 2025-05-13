@@ -6,11 +6,7 @@ function MyDataRevamp() {
     <div className={styles.container}>
       <div className={styles.card}>
         <h1 className={styles.title}>MyData 前台網站改版專案</h1>
-        <img
-          className={styles.image}
-          src="/placeholder.png"
-          alt="MyData Revamp"
-        />
+        <img className={styles.image} src="/Riease.jpg" alt="MyData Revamp" />
 
         <p className={styles.description}>
           本專案為公司 MyData 前台網站的改版與重製工程，

@@ -6,11 +6,7 @@ function Radar() {
     <div className={styles.container}>
       <div className={styles.card}>
         <h1 className={styles.title}>簡易倒車雷達系統</h1>
-        <img
-          className={styles.image}
-          src="/placeholder.png"
-          alt="Radar Project"
-        />
+        <img className={styles.image} src="radar.jpg" alt="Radar Project" />
 
         <p className={styles.description}>
           本專案為一個{" "}

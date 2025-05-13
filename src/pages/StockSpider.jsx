@@ -6,11 +6,7 @@ function StockSpider() {
     <div className={styles.container}>
       <div className={styles.card}>
         <h1 className={styles.title}>台股盤後資訊爬蟲</h1>
-        <img
-          className={styles.image}
-          src="/placeholder.png"
-          alt="Stock Spider"
-        />
+        <img className={styles.image} src="/KLine.jpg" alt="Stock Spider" />
 
         <p className={styles.description}>
           此專案旨在從 <strong>台灣證券交易所（TWSE）</strong>{" "}

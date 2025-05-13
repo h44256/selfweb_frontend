@@ -8,7 +8,7 @@ function ChunYuan() {
         <h1 className={styles.title}>土石方圖像辨識分析計算程式</h1>
         <img
           className={styles.image}
-          src="/placeholder.png"
+          src="/opencv.png"
           alt="ChunYuan Project"
         />
 

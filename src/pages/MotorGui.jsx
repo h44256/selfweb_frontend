@@ -6,7 +6,7 @@ function MotorGui() {
     <div className={styles.container}>
       <div className={styles.card}>
         <h1 className={styles.title}>模擬馬達控制 GUI 軟體</h1>
-        <img className={styles.image} src="/placeholder.png" alt="Motor GUI" />
+        <img className={styles.image} src="MotorGUI.jpg" alt="Motor GUI" />
 
         <p className={styles.description}>
           <strong>Motor Control Simulation GUI</strong>{" "}

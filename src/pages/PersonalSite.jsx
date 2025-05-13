@@ -6,11 +6,7 @@ function PersonalSite() {
     <div className={styles.container}>
       <div className={styles.card}>
         <h1 className={styles.title}>個人網站建置專案</h1>
-        <img
-          className={styles.image}
-          src="/placeholder.png"
-          alt="Personal Site"
-        />
+        <img className={styles.image} src="/site.png" alt="Personal Site" />
 
         <p className={styles.description}>
           為了記錄自己轉職為軟體工程師後的學習歷程與生活點滴，

@@ -7,6 +7,8 @@ function RieaseSide() {
         <img className={styles.Riease} src="/Riease.jpg" alt="Riease logo" />
       </div>
       <div className={styles.projectLinks}>
+        <p className={styles.linkHint}>👇 點擊以下文字可前往專案介紹頁面</p>
+
         {/* 🧰 工作經歷區塊 */}
         <p className={`${styles.sectionTitle} ${styles.sectionWork}`}>
           💼 工作經歷
@@ -16,6 +18,7 @@ function RieaseSide() {
         <ul>
           <li>
             <a
+              className={styles.linkBlock}
               href="/ActionLog"
               target="_blank"
               rel="noopener noreferrer"
@@ -26,6 +29,7 @@ function RieaseSide() {
           </li>
           <li>
             <a
+              className={styles.linkBlock}
               href="/LoginAlert"
               target="_blank"
               rel="noopener noreferrer"
@@ -40,6 +44,7 @@ function RieaseSide() {
         <ul>
           <li>
             <a
+              className={styles.linkBlock}
               href="/MyDataRevamp"
               target="_blank"
               rel="noopener noreferrer"
@@ -59,6 +64,7 @@ function RieaseSide() {
         <ul>
           <li>
             <a
+              className={styles.linkBlock}
               href="/Radar"
               target="_blank"
               rel="noopener noreferrer"

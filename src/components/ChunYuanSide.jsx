@@ -11,6 +11,8 @@ function ChunYuanSide() {
         />
       </div>
       <div className={styles.projectLinks}>
+        <p className={styles.linkHint}>👇 點擊以下文字可前往專案介紹頁面</p>
+
         <p className={`${styles.sectionTitle} ${styles.sectionWork}`}>
           💼 工作經歷
         </p>
@@ -19,6 +21,7 @@ function ChunYuanSide() {
         <ul>
           <li>
             <a
+              className={styles.linkBlock}
               href="/ChunYuanProject"
               target="_blank"
               rel="noopener noreferrer"

@@ -10,7 +10,10 @@ function SupremeSide() {
           alt="Supreme logo"
         />
       </div>
+
       <div className={styles.projectLinks}>
+        <p className={styles.linkHint}>👇 點擊以下文字可前往專案介紹頁面</p>
+
         {/* 🎯 工作經歷區塊 */}
         <p className={`${styles.sectionTitle} ${styles.sectionWork}`}>
           💼 工作經歷
@@ -20,6 +23,7 @@ function SupremeSide() {
         <ul>
           <li>
             <a
+              className={styles.linkBlock}
               href="/BootLoader"
               target="_blank"
               rel="noopener noreferrer"
@@ -30,6 +34,7 @@ function SupremeSide() {
           </li>
           <li>
             <a
+              className={styles.linkBlock}
               href="/CloudToFirmwareControl"
               target="_blank"
               rel="noopener noreferrer"
@@ -44,6 +49,7 @@ function SupremeSide() {
         <ul>
           <li>
             <a
+              className={styles.linkBlock}
               href="/MotorTest"
               target="_blank"
               rel="noopener noreferrer"
@@ -63,6 +69,7 @@ function SupremeSide() {
         <ul>
           <li>
             <a
+              className={styles.linkBlock}
               href="/MotorGui"
               target="_blank"
               rel="noopener noreferrer"
@@ -77,6 +84,7 @@ function SupremeSide() {
         <ul>
           <li>
             <a
+              className={styles.linkBlock}
               href="/StockSpider"
               target="_blank"
               rel="noopener noreferrer"
@@ -87,6 +95,7 @@ function SupremeSide() {
           </li>
           <li>
             <a
+              className={styles.linkBlock}
               href="/PersonalSite"
               target="_blank"
               rel="noopener noreferrer"

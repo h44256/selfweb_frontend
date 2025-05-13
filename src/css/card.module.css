@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  /* border : 2px solid red; */
 }
 
 /* 小螢幕時讓卡片垂直堆疊 */
@@ -74,6 +73,14 @@
   padding-left: 0.625rem;
 }
 
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0.625rem 0;
+  width: 90%;
+}
+
 .sectionTitle {
   font-size: 1.1rem;
   font-weight: bold;
@@ -128,4 +135,44 @@
 .projectLinks a:hover {
   color: #1e1ebf;
   text-decoration: underline;
+}
+
+/* 提示用小字 */
+.linkHint {
+  font-size: 12px;
+  text-align: center;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+/* 超連結按鈕樣式 */
+.linkBlock {
+  display: block;
+  padding: 6px 10px;
+  margin-bottom: 4px;
+  color: #0d6efd;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+  position: relative;
+}
+
+/* 加箭頭 icon */
+.linkBlock::after {
+  content: "↗";
+  font-size: 12px;
+  margin-left: 4px;
+  opacity: 0.6;
+}
+
+/* Hover 效果 */
+.linkBlock:hover {
+  background-color: #e9f2ff;
+  color: #084298;
+  transform: scale(1.02);
+}
+
+.linkBlock:hover::after {
+  opacity: 1;
 }

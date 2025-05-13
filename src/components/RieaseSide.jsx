@@ -1,20 +1,28 @@
 import styles from "../css/card.module.css";
+import { useState } from "react";
 
 function RieaseSide() {
+  const [hasInteracted, setHasInteracted] = useState(false);
+
   return (
     <div className={styles.card}>
       <div className={styles.imageWrapper}>
         <img className={styles.Riease} src="/Riease.jpg" alt="Riease logo" />
       </div>
-      <div className={styles.projectLinks}>
-        <p className={styles.linkHint}>👇 點擊以下文字可前往專案介紹頁面</p>
 
-        {/* 🧰 工作經歷區塊 */}
+      <div className={styles.projectLinks}>
         <p className={`${styles.sectionTitle} ${styles.sectionWork}`}>
           💼 工作經歷
         </p>
 
         <p className={styles.groupTitle}>🗃 後台系統開發</p>
+        <p
+          className={`${styles.linkHint} ${
+            !hasInteracted ? styles.linkHintActive : ""
+          }`}
+        >
+          👇 點擊以下文字可前往專案介紹頁面
+        </p>
         <ul>
           <li>
             <a
@@ -22,7 +30,10 @@ function RieaseSide() {
               href="/ActionLog"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e) => {
+                e.stopPropagation();
+                setHasInteracted(true);
+              }}
             >
               資料後台操作紀錄新增/查詢功能
             </a>
@@ -33,7 +44,10 @@ function RieaseSide() {
               href="/LoginAlert"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e) => {
+                e.stopPropagation();
+                setHasInteracted(true);
+              }}
             >
               資料後台會員登入警示信系統
             </a>
@@ -48,14 +62,16 @@ function RieaseSide() {
               href="/MyDataRevamp"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e) => {
+                e.stopPropagation();
+                setHasInteracted(true);
+              }}
             >
               MyData 前台網站重製改版
             </a>
           </li>
         </ul>
 
-        {/* 💡 Side Project 區塊 */}
         <p className={`${styles.sectionTitle} ${styles.sectionSide}`}>
           💡 Side Project
         </p>
@@ -68,7 +84,10 @@ function RieaseSide() {
               href="/Radar"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e) => {
+                e.stopPropagation();
+                setHasInteracted(true);
+              }}
             >
               簡易倒車雷達
             </a>

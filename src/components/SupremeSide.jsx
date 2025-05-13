@@ -1,6 +1,9 @@
 import styles from "../css/card.module.css";
+import { useState } from "react";
 
 function SupremeSide() {
+  const [hasInteracted, setHasInteracted] = useState(false);
+
   return (
     <div className={styles.card}>
       <div className={styles.imageWrapper}>
@@ -12,14 +15,18 @@ function SupremeSide() {
       </div>
 
       <div className={styles.projectLinks}>
-        <p className={styles.linkHint}>👇 點擊以下文字可前往專案介紹頁面</p>
-
-        {/* 🎯 工作經歷區塊 */}
         <p className={`${styles.sectionTitle} ${styles.sectionWork}`}>
           💼 工作經歷
         </p>
 
         <p className={styles.groupTitle}>📦 韌體</p>
+        <p
+          className={`${styles.linkHint} ${
+            !hasInteracted ? styles.linkHintActive : ""
+          }`}
+        >
+          👇 點擊以下文字可前往專案介紹頁面
+        </p>
         <ul>
           <li>
             <a
@@ -27,7 +34,10 @@ function SupremeSide() {
               href="/BootLoader"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e) => {
+                e.stopPropagation();
+                setHasInteracted(true);
+              }}
             >
               BootLoader 專案
             </a>
@@ -38,7 +48,10 @@ function SupremeSide() {
               href="/CloudToFirmwareControl"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e) => {
+                e.stopPropagation();
+                setHasInteracted(true);
+              }}
             >
               CloudToFirmwareControl
             </a>
@@ -53,14 +66,16 @@ function SupremeSide() {
               href="/MotorTest"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e) => {
+                e.stopPropagation();
+                setHasInteracted(true);
+              }}
             >
               馬達控制器品質自動化測試
             </a>
           </li>
         </ul>
 
-        {/* 🎯 Side Project 區塊 */}
         <p className={`${styles.sectionTitle} ${styles.sectionSide}`}>
           💡 Side Project
         </p>
@@ -73,7 +88,10 @@ function SupremeSide() {
               href="/MotorGui"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e) => {
+                e.stopPropagation();
+                setHasInteracted(true);
+              }}
             >
               模擬馬達控制 GUI 軟體
             </a>
@@ -88,7 +106,10 @@ function SupremeSide() {
               href="/StockSpider"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e) => {
+                e.stopPropagation();
+                setHasInteracted(true);
+              }}
             >
               台股盤後資訊爬蟲
             </a>
@@ -99,7 +120,10 @@ function SupremeSide() {
               href="/PersonalSite"
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e) => {
+                e.stopPropagation();
+                setHasInteracted(true);
+              }}
             >
               個人網站
             </a>
